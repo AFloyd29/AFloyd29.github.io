@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <title>Superhero Gallery</title>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes</title>
     <style>
-       h1
-            {
-                color: blue;
-            }
-            h2
-            {
-                color: red;
-            }
-            th
-            {
-                color: rgb(0, 0, 0);
-            }
-            img
-            {
-                height: 100px;
-            }
-            td, th
-            {
-                border: 2px solid black;
-                padding: 15px;
-                
-            }
-            table
-            {
-                border-collapse: collapse;
-            }
-            th
-            {
-                background-color: gray;
-                font-size: 18px;
-            }
-</style>
-  </head>
-  <body>
-    <h1><strong>My Favorite Superhero's</strong></h1>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            padding-top: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            border: 2px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Image styles */
+        img {
+            height: 100px;
+            width: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Superheroes</h1>
+
     <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Alias</th>
-          <th>Image</th>
-          <th>Superpower</th>
-          <th>Weakness</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>Iron Man</th>
-          <td>Tony Stark</td>
-          <td><img src="https://qph.cf2.quoracdn.net/main-qimg-6b2fbb11ab91a68e86233b462e416213" alt="Photo of Iron Man"></td>
-          <td>Iron Man posseses powered armour that gives him superhuman strength, durability, flight, and an array of weapons</td>
-          <td>Their ego</td>
-        </tr>
-        <tr>
-          <th>Hulk</th>
-          <td>Bruce Banner</td>
-          <td><img src="https://ew.com/thmb/SYU1-RLn9Ht9XDovUaRmr3QSSRE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-hulk-2000-718378f1f36d4404a42d1eea9d65f350.jpg" alt="Photo of Hulk"></td>
-          <td>Superhuman strength, speed, stamina, and durability. Anger empowerment. Regeneration. Shockwave generation. Gamma ray emission and manipulation.</td>
-          <td>Calming him down</td>
-        </tr>
-        <tr>
-          <th>Thor</th>
-          <td>Thor, 'Son of Odin'</td>
-          <td><img src="https://cdn.britannica.com/73/182873-050-E1C686F4/Chris-Hemsworth-Thor-Thor-The-Dark-World.jpg" alt="Photo of Thor"></td>
-          <td>Has enhanced longevity, augmented by the Golden Apples of Idunn. He also possesses superhuman strength, speed, agility, durability and immunity to most diseases.</td>
-          <td>N/A</td>
-        </tr>
-        <tr>
-        <th>Loki</th>
-        <td>Loki, 'Son of Odin'</td>
-        <td><img src="https://assets-prd.ignimgs.com/2023/11/15/streamingwars-loki-blogroll-1700009821295.jpg" alt="Photo of Loki"></td>
-        <td>Loki possesses strength, durability, and longevity far superior to humans. The most powerful sorcerer in all of Asgard, Loki's magical abilities include astral projection,<br>shape-shifting, hypnosis, molecular rearrangement, energy blasts, levitating, conjuration, cryokinesis, telekinesis and teleportation.</td>
-        <td>Loki's greatest weakness is that he doesn't always think things through</td>
-        </tr>
-      </tbody>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Alias</th>
+                <th>Image</th>
+                <th>Superpower</th>
+                <th>Weakness</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Clark Kent</td>
+                <td>Superman</td>
+                <td><a href="images/superman.jpg" target="_blank"><img src="images/superman.jpg" alt="Superman"></a></td>
+                <td>Super strength, flight, heat vision</td>
+                <td>Kryptonite</td>
+            </tr>
+            <tr>
+                <td>Bruce Wayne</td>
+                <td>Batman</td>
+                <td><a href="images/batman.jpg" target="_blank"><img src="images/batman.jpg" alt="Batman"></a></td>
+                <td>Martial arts, detective skills, gadgets</td>
+                <td>None (human limitations)</td>
+            </tr>
+            <tr>
+                <td>Peter Parker</td>
+                <td>Spider-Man</td>
+                <td><a href="images/spiderman.jpg" target="_blank"><img src="images/spiderman.jpg" alt="Spider-Man"></a></td>
+                <td>Spider-sense, web-shooting, super agility</td>
+                <td>Guilt, personal responsibility</td>
+            </tr>
+            <tr>
+                <td>Diana Prince</td>
+                <td>Wonder Woman</td>
+                <td><a href="images/wonderwoman.jpg" target="_blank"><img src="images/wonderwoman.jpg" alt="Wonder Woman"></a></td>
+                <td>Super strength, flight, combat skills</td>
+                <td>None (goddess of war)</td>
+            </tr>
+        </tbody>
     </table>
-    <p><a href="index.html">HOME</a></p>
-  </body>
+<p><a href="index.html">HOME</a></p>
+</body>
+</html>
 </html>
