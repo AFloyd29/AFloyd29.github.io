@@ -1,1 +1,9 @@
+@font-face {
+    font-family: MyFont;
+    src: url('fonts/Arvo-Regular.ttf)
+}
 
+@font-face {
+    font-family: AnotherFont;
+    src: url(fonts/Tektur-VariableFont_wdth,wght.ttf)
+}
