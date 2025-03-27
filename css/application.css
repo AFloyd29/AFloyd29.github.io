@@ -4,23 +4,22 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif; /* Body font */
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    padding: 20px;
 }
-
-header {
-    text-align: center;
-    margin-bottom: 40px;
+@font-face
+{
+    font-family: MyFont;
+    src: url('fonts/Arvo-Regular.ttf)
 }
-
+@font-face
+{
+    font-family: AnotherFont;
+    src: url(fonts/Tektur-VariableFont_wdth,wght.ttf)
+}
 h1 {
-    font-family: 'Impact', sans-serif; /* Custom font for the heading */
-    color: #333;
-    font-size: 2.5rem;
-    text-transform: uppercase;
+    font-family: MyFont;
+    text-align: center;
+    font-size: 42pt;
+    margin: 15px;
 }
 
 section {
@@ -28,10 +27,11 @@ section {
 }
 
 h2 {
-    font-family: 'Verdana', sans-serif; /* Custom font for sub-headings */
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #444;
+    font-family: AnotherFont; 
+    text-align: center;
+    font-size: 42pt;
+    margin: 15px;
+
 }
 
 p {
