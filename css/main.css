@@ -1,47 +1,54 @@
 body {
-    background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
-    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    font-family: 'Verdana', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
     height: 100vh;
+    align-items: center;
 }
+
 img {
-    width: 60%;
+    width: 50%;
+    max-width: 400px;
     height: auto;
-    max-width: 500px;
     margin: 20px auto;
     display: block;
-    border-radius: 8px;
-    border: 4px solid #e0e0e0;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 h1 {
-    color: #2d3b47;
-    font-size: 36px;
-    font-weight: 700;
+    color: #4a4a4a;
+    font-size: 40px;
+    font-weight: 400;
     text-align: center;
-    letter-spacing: 0.5px;
-    margin-top: 30px;
+    letter-spacing: 1px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
+
 p {
-    color: #6e7f87;
+    color: #5f6368;
     font-size: 18px;
     line-height: 1.6;
-    padding: 15px 25px;
-    background-color: rgba(245, 245, 245, 0.9);
+    background-color: #ffffff;
+    padding: 15px 20px;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
 }
+
 a {
-    color: #4a90e2;
-    font-size: 20px;
+    color: #007acc;
+    font-size: 18px;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;
     transition: color 0.3s ease;
 }
+
 a:hover {
-    color: #1f3a63;
+    color: #005a8c;
     text-decoration: underline;
 }
