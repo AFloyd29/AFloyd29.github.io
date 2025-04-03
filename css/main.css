@@ -1,1 +1,32 @@
+body {
+    background-color: #f4f4f9;
+}
 
+img {
+    width: 100%;
+    border-radius: 8px;
+    opacity: 0.9;
+    filter: brightness(0.9);
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(50, 100, 200);
+    line-height: 1.6;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
