@@ -1,1 +1,51 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+}
 
+header {
+    height: 20vh;
+    background: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #00ffc3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.profile-pic {
+    width: 120px;
+    border-radius: 100px;
+    margin: 10px 0;
+    border: 2px solid #00ffc3;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.date {
+    color: #aaa;
+    font-style: italic;
+}
